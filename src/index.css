@@ -1,0 +1,79 @@
+/* Font size of headings: 32px
+• All other font size: 16px
+• Font family: Poppins
+
+• Screen background: 030303
+
+• Font colour: FFFFFF
+• Radio button background colour: FFFFFF   =================
+• Selected radio button colour: 6741D9  ======================
+• Text field/Input field border: FFFFFF
+• Graph bars colour: F0C3F1
+
+• Bar axis and markings colour: FFFFFF
+
+• Save button background: 6741D9
+• Hover on Save button: Border becomes active, F0C3F1, 1px.
+• Click on Save button: Border becomes active, F0C3F1, 1px.
+• Width for
+
+a) Headings- 600px, justify centre.
+b) Fields on Screen 1 and Screen 2- 600px.
+c) Login, Sign up, Save button- 600px, justify, centre.
+d) Graph container- 600px
+• Width for all other elementsa) Maximum- 300px
+b) Minimum- Fit to size.
+• Greyed out fieldsa) Greyed out radio button background- C2C2C2
+b) Greyed out text/input fields: Colour of border and value present changes to C2C2C2. */
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #030303 !important;
+}
+.fs_32 {
+  font-size: 32px;
+}
+
+.fs_16 {
+  font-size: 16px;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.color_FFFFFF {
+  color: #ffffff;
+}
+.bg_030303 {
+  background-color: #030303;
+}
+
+.border_FFFFFF {
+  border: 1px solid #ffffff;
+}
+
+.bar_color {
+  color: #f0c3f1;
+}
+
+.bg_6741D9 {
+  background-color: #6741d9;
+}
+.input-field::placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
